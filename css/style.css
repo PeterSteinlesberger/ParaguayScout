@@ -1392,11 +1392,50 @@ figure.effect-layla .main-title {
     display: flex;
     justify-content: space-between;
     background: #fff;
-    padding: 10px 380px;
-    height: 86px;
-   
-    
+    padding: 10px 0;
+    height: 86px; 
+    width: 100%;  
 }
+
+. {
+    width: 100%;
+    padding: 0 380px;
+}
+
+ @media (max-width: 1800px) {
+    .header-top-cont {
+        padding: 0 280px;
+    }
+} 
+
+@media (max-width: 1700px) {
+    .header-top-cont {
+        padding: 0 230px;
+    }
+} 
+
+@media (max-width: 1600px) {
+    .header-top-cont {
+        padding: 0 190px;
+    }
+} 
+
+@media (max-width: 1500px) {
+    .header-top-cont {
+        padding: 0 140px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .header-top-cont {
+        padding: 0 100px;
+    }
+} 
+
+
+
+
+
 .bor_nav {
     border-top: 1px solid #dbdbdb;
 }
