@@ -1373,10 +1373,18 @@ figure.effect-layla .main-title {
 /* --------- HEADERS CSS  ---------- */
 /* ================================= */
 
+.motto-cont {
+    display: flex;
+}
+
 #header-top {
-    background: #3386cb;
-    padding: 10px 0;
-    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 10px 380px;
+    height: 86px;
+   
+    
 }
 .bor_nav {
     border-top: 1px solid #dbdbdb;
@@ -1409,7 +1417,10 @@ figure.effect-layla .main-title {
     margin-left: 12px;
 }
 .header-top-links {
-    text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+width: 540px;
 }
 .get-tuch ul li h4,
 .get-tuch ul li p {

@@ -45,9 +45,9 @@ nav.navbar.bootsnav{
     -webkit-border-radius: 0px;
     -o-border-radius: 0px;
     border-radius: 0px;
-    background-color: #fff;
+    background-color: #3386cb;
     border: none;
-    border-bottom: solid 1px #e0e0e0;
+    border-bottom: solid 1px #3386cb;
     z-index: 9;
 }
 
