@@ -1377,6 +1377,11 @@ figure.effect-layla .main-title {
     display: flex;
 }
 
+.logo-scout {
+    height: 84px;
+    margin-top: -8px;
+}
+
 #header-top {
     display: flex;
     justify-content: space-between;
