@@ -1402,6 +1402,10 @@ figure.effect-layla .main-title {
     padding: 0 380px;
 }
 
+.background-blue {
+    background-color: #3386cb;
+}
+
  @media (max-width: 1800px) {
     .header-top-cont {
         padding: 0 280px;
